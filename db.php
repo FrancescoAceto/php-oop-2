@@ -9,7 +9,7 @@ $animals = [
     new Animal("cat")
 ];
 
-$prodotto = new Product("Catisfactions", "Crocchette", 3, $animals[1]);
+$prodotto = new Product("Catisfactions", "Crocchette", 3, $animals[1], 20);
 $giocattolo = new Toy("Pollo di Gomma", "Giocattolo", 2, $animals[0]);
 $cuccia = new Kennel("Cuccia Grande", "Cuccia", 8, $animals[0]);
 

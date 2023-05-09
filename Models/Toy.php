@@ -3,6 +3,7 @@
 require_once __DIR__ . "/Animal.php";
 
 class Toy {
+
     protected $name;
     protected $type;
     protected $price;
